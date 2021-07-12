@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/progress_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#77000000"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="#fff"
+        android:orientation="vertical" >
+
+        <com.larswerkman.holocolorpicker.ColorPicker
+            android:id="@+id/picker_arabman"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="2dp" />
+
+        <com.larswerkman.holocolorpicker.ValueBar
+            android:id="@+id/valuebar_arabman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/picker_arabman" />
+
+        <Button
+            android:id="@+id/bok_arabman"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@drawable/ok1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/bcancel_arabman"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:background="@drawable/cancel1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>.
+
+</LinearLayout>

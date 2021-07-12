@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/bar">
+
+        <ImageView
+            android:id="@+id/save1"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:background="@drawable/save" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowColor="#000"
+            android:text="Multan Sultan"
+            android:textColor="#f74242"
+            android:textSize="25sp" />
+
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:background="@drawable/share1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/framelayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:scaleType="matrix" />
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center">
+
+                    <com.tttg.user.collagephotoeditor.DraggableImageView
+                        android:id="@+id/canvasImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY" />
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:id="@+id/fram"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_gravity="center"
+                    android:scaleType="matrix" />
+
+                <FrameLayout
+                    android:id="@+id/frame_arabman"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/seatxt_arabman"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="25dp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/canvasView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:id="@+id/stickerarabman"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="matrix" />
+
+                </FrameLayout>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/listfram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/framelayout"
+                android:background="#96000000"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.tttg.user.collagephotoeditor.ListViewHorizontal
+                    android:id="@+id/frameslist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="110dp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/bar"
+        android:gravity="center">
+
+
+        <!--<ImageView-->
+            <!--android:id="@+id/frame"-->
+            <!--android:layout_width="@dimen/_60sdp"-->
+            <!--android:layout_height="@dimen/_30sdp"-->
+            <!--android:layout_marginRight="40dp"-->
+            <!--android:gravity="center"-->
+            <!--android:background="@drawable/wallpaper" />-->
+
+        <ImageView
+            android:id="@+id/stick"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+            android:background="@drawable/flag" />
+
+        <ImageView
+            android:id="@+id/text"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:gravity="center"
+            android:background="@drawable/text" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

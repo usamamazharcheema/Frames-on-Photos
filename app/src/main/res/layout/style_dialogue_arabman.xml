@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+
+        android:layout_height="250dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/style1_arabman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#fff"
+                android:text="Text Style" />
+            
+            <TextView
+                android:id="@+id/style2_arabman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="25dp"
+                 android:layout_marginTop="5dp"
+                 android:textColor="#fff"
+                android:text="Text Style" />
+            <TextView
+                android:id="@+id/style3_arabman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="25dp"
+                 android:layout_marginTop="5dp"
+                 android:textColor="#fff"
+                android:text="Text Style" />
+            <TextView
+                android:id="@+id/style4_arabman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="25dp"
+                 android:layout_marginTop="5dp"
+                 android:textColor="#fff"
+                android:text="Text Style" />
+            <TextView
+                android:id="@+id/style5_arabman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="25dp"
+                 android:layout_marginTop="5dp"
+                 android:textColor="#fff"
+                android:text="Text Style" />
+            <TextView
+                android:id="@+id/style6_arabman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="25dp"
+                 android:layout_marginTop="5dp"
+                 android:textColor="#fff"
+                android:text="Text Style" />
+            <TextView
+                android:id="@+id/style7_arabman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="25dp"
+                 android:layout_marginTop="5dp"
+                 android:textColor="#fff"
+                android:text="Text Style" />
+            <TextView
+                android:id="@+id/style8_arabman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="25dp"
+                 android:layout_marginTop="5dp"
+                 android:textColor="#fff"
+                android:text="Text Style" />
+            <TextView
+                android:id="@+id/style9_arabman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="25dp"
+                 android:layout_marginTop="5dp"
+                 android:textColor="#fff"
+                android:text="Text Style" />
+            <TextView
+                android:id="@+id/style10_arabman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="25dp"
+                 android:layout_marginTop="5dp"
+                 android:textColor="#fff"
+                android:text="Text Style" />
+            <TextView
+                android:id="@+id/style11_arabman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="25dp"
+                 android:layout_marginTop="5dp"
+                 android:textColor="#fff"
+                android:text="Text Style" />
+            <TextView
+                android:id="@+id/style12_arabman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="25dp"
+                 android:layout_marginTop="5dp"
+                 android:textColor="#fff"
+                android:text="Text Style" />
+            <TextView
+                android:id="@+id/style13_arabman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="25dp"
+                 android:layout_marginTop="5dp"
+                 android:textColor="#fff"
+                android:text="Text Style" />
+            <TextView
+                android:id="@+id/style14_arabman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="25dp"
+                 android:layout_marginTop="5dp"
+                 android:textColor="#fff"
+                android:text="Text Style" />
+            <TextView
+                android:id="@+id/style15_arabman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:textSize="25dp"
+                 android:layout_marginTop="5dp"
+                 android:layout_marginBottom="5dp"
+                 android:textColor="#fff"
+                android:text="Text Style" />
+
+        </LinearLayout>
+    </ScrollView>
+
+

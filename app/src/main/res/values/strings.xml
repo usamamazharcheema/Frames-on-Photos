@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multan Sultan Photo Editor : PSL Themes 2018</string>
+    <string name="start">Start</string>
+    <string name="album">Album</string>
+    <string name="save">Save</string>
+    <string name="texture">Texture</string>
+    <string name="water">Water</string>
+    <string name="nature">Nature</string>
+    <string name="city">City</string>
+    <string name="blur">Blur</string>
+    <string name="opacity">Opacity:</string>
+    <string name="share">SHARE</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="animal">Animal</string>
+    <string name="galaxy">Galaxy</string>
+    <string name="sticker">Sticker</string>
+    <string name="text">Text</string>
+    <string name="second_name">PhotoEditor</string>
+    <string name="my_work">My Work</string>
+    <string name="select">Pick Image</string>
+</resources>

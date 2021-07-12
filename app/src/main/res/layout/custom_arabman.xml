@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:background="#83000000">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/addtxt"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/text1" />
+
+        <ImageView
+            android:id="@+id/size_arabman"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/addtxt"
+            android:src="@drawable/tsize1" />
+
+        <ImageView
+            android:id="@+id/color_arabman"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/size_arabman"
+            android:src="@drawable/tcolor1" />
+
+        <ImageView
+            android:id="@+id/style_arabman"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+
+            android:layout_toRightOf="@+id/color_arabman"
+            android:src="@drawable/tstyle1" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/tapply_arabman"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_below="@+id/relativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/apply" />
+
+</RelativeLayout>

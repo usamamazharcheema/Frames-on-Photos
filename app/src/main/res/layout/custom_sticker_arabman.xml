@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:weightSum="5">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_20sdp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="PSL "
+                    android:fontFamily="sans-serif" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/stik1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/s_1" />
+
+                <ImageView
+                    android:id="@+id/stik2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/s_2" />
+
+                <ImageView
+                    android:id="@+id/stik3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/s_3" />
+                <ImageView
+                    android:id="@+id/stik9"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/s_9" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/stik5"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/s_5" />
+
+                <ImageView
+                    android:id="@+id/stik6"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/s_6" />
+
+                <ImageView
+                    android:id="@+id/stik7"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/s_7" />
+
+                <ImageView
+                    android:id="@+id/stik8"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/s_8" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/stik12"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/s_10" />
+
+                <ImageView
+                    android:id="@+id/stik13"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/s_11" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_20sdp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="Candles"
+                    android:fontFamily="sans-serif" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/stik14"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/s_12" />
+
+                <ImageView
+                    android:id="@+id/stik15"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/s_13" />
+
+                <ImageView
+                    android:id="@+id/stik16"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/s_14" />
+
+                <ImageView
+                    android:id="@+id/stik17"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/s_15" />
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_20sdp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="Baloons"
+                    android:fontFamily="sans-serif" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+
+
+                <ImageView
+                    android:id="@+id/stik10"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/jai_hind" />
+
+                <ImageView
+                    android:id="@+id/stik11"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/bharat" />
+                <ImageView
+                    android:id="@+id/stik4"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/s_4" />
+
+                <ImageView
+                    android:id="@+id/stik20"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/s_18" />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/stik18"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/s_16" />
+
+            <ImageView
+                android:id="@+id/stik19"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/s_17" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_20sdp"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:text="Emojis"
+                    android:fontFamily="sans-serif" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/stik81"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker81" />
+
+                <ImageView
+                    android:id="@+id/stik83"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker83" />
+
+                <ImageView
+                    android:id="@+id/stik84"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker84" />
+
+                <ImageView
+                    android:id="@+id/stik80"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker80" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/stik73"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker73" />
+
+                <ImageView
+                    android:id="@+id/stik74"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker74" />
+
+                <ImageView
+                    android:id="@+id/stik75"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker75" />
+
+                <ImageView
+                    android:id="@+id/stik76"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker76" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/stik77"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker77" />
+
+                <ImageView
+                    android:id="@+id/stik78"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker78" />
+
+                <ImageView
+                    android:id="@+id/stik79"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker79" />
+
+                <ImageView
+                    android:id="@+id/stik72"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker72" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/stik61"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker61" />
+
+                <ImageView
+                    android:id="@+id/stik62"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker62" />
+
+                <ImageView
+                    android:id="@+id/stik63"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker63" />
+
+                <ImageView
+                    android:id="@+id/stik64"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker64" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/stik65"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker65" />
+
+                <ImageView
+                    android:id="@+id/stik66"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker66" />
+
+                <ImageView
+                    android:id="@+id/stik67"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker67" />
+
+                <ImageView
+                    android:id="@+id/stik68"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker68" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="270dp"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/stik69"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker69" />
+
+                <ImageView
+                    android:id="@+id/stik70"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker70" />
+
+                <ImageView
+                    android:id="@+id/stik71"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker71" />
+
+                <ImageView
+                    android:id="@+id/stik82"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sticker82" />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

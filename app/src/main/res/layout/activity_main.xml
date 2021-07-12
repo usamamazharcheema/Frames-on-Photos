@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.tttg.user.collagephotoeditor.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:background="@drawable/bar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowColor="#000"
+            android:text="Multan Sultan"
+            android:textColor="#f74242"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3444255945927869/4563451532">
+
+        </com.google.android.gms.ads.AdView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/cam"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/camera" />
+
+
+        <ImageView
+            android:id="@+id/gal"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_45sdp"
+
+            android:layout_marginTop="20dp"
+            android:background="@drawable/gallery" />
+
+        <ImageView
+            android:id="@+id/work"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/my_work" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <com.google.android.gms.ads.NativeExpressAdView
+            android:id="@+id/adVieww"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ads:adSize="280x132"
+            ads:adUnitId="ca-app-pub-3444255945927869/4585123521"
+
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
